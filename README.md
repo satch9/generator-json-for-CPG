@@ -1,1 +1,0 @@
-# generator-json-for-CPG

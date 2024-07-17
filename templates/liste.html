@@ -1,0 +1,78 @@
+<section>
+    <div class="d-flex justify-content-end">
+        <button type="button" class="btn btn-outline-primary p-2 mt-3" data-bs-toggle="modal"
+            data-bs-target="#nouveauSchemaModal">
+            Nouveau schéma
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="nouveauSchemaModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Liste</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <textarea class="form-control" id="modelSchema" rows="3"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Form Schemas</h1>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addSchemaModal">
+            <i class="bi bi-plus"></i> Add Schema
+        </button>
+    </div>
+
+    <div id="schemaList" class="list-group mb-4"></div>
+
+    <div class="modal fade" id="addSchemaModal" tabindex="-1" aria-labelledby="addSchemaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addSchemaModalLabel">Add New Schema</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="schemaJson" class="form-label">Schema JSON</label>
+                        <textarea id="schemaJson" class="form-control" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="saveSchema">Save Schema</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="schemaDetailsModal" tabindex="-1" aria-labelledby="schemaDetailsModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="schemaDetailsModalLabel">Schema Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <pre id="schemaDetails"></pre>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="generateForm">Generate Form</button>
+                    <button type="button" class="btn btn-danger" id="deleteSchema">Delete Schema</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="formContainer"></div>
+</section>
