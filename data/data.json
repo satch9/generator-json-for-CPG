@@ -1,0 +1,168 @@
+{
+    "CPG_guide_def_2023": [
+        {
+            "indicateur": "",
+            "code": "",
+            "axe": {
+                "number": "",
+                "label": ""
+            },
+            "theme": "",
+            "cartographie": {
+                "label": "",
+                "year": "",
+                "section": {
+                    "macro-processus": "",
+                    "processus": "",
+                    "sous-processus": ""
+                }
+            },
+            "finalite": "",
+            "mode-de-contractualisation": {
+                "cpg-et-ou-lettre-de-mission": {
+                    "National": "",
+                    "CARSAT": "",
+                    "CGSS": "",
+                    "CPAM": "",
+                    "DRSM": ""
+                },
+                "avec-part-locale": {
+                    "National": "",
+                    "CARSAT": "",
+                    "CGSS": "",
+                    "CPAM": "",
+                    "DRSM": ""
+                },
+                "avec-part-regionale": {
+                    "National": "",
+                    "CARSAT": "",
+                    "CGSS": "",
+                    "CPAM": "",
+                    "DRSM": ""
+                }
+            },
+            "population-cible": "",
+            "champ-couvert": "",
+            "service-responsable-indicateur": {
+                "direction-metier": [
+                    "",
+                    ""
+                ]
+            },
+            "mode-calcul": "",
+            "periode-retenue-pour-le-score": {
+                "cpg": "",
+                "interessement": ""
+            },
+            "type-de-mesure-et-format-afffichage": "",
+            "si-autre": "",
+            "periodicite": "",
+            "mode-diffusion-resultats-au-reseau": [
+                "",
+                ""
+            ],
+            "date-transmission-resultats-DGCAP": {
+                "pour-suivi": "",
+                "pour-score": ""
+            },
+            "sources-donnees": "",
+            "methodes-statistiques": "",
+            "objectif": {
+                "nombre": "",
+                "unites": ""
+            },
+            "socle": {
+                "nombre": "",
+                "unites": ""
+            },
+            "instructions-nationales": "",
+            "commentaires": "",
+            "date-creation-fiche": "",
+            "date-derniere-mise-a-jour": "",
+            "detail-derniere-maj": ""
+        }
+    ],
+    "CPG_guide_def_2024": [
+        {
+            "indicateur": "",
+            "code": "",
+            "axe": {
+                "number": "",
+                "label": ""
+            },
+            "theme": "",
+            "cartographie": {
+                "label": "",
+                "year": "",
+                "section": {
+                    "macro-processus": "",
+                    "processus": "",
+                    "sous-processus": ""
+                }
+            },
+            "finalite": "",
+            "mode-de-contractualisation": {
+                "cpg-et-ou-lettre-de-mission": {
+                    "National": "",
+                    "CARSAT": "",
+                    "CGSS": "",
+                    "CPAM": "",
+                    "DRSM": ""
+                },
+                "avec-part-locale": {
+                    "National": "",
+                    "CARSAT": "",
+                    "CGSS": "",
+                    "CPAM": "",
+                    "DRSM": ""
+                },
+                "avec-part-regionale": {
+                    "National": "",
+                    "CARSAT": "",
+                    "CGSS": "",
+                    "CPAM": "",
+                    "DRSM": ""
+                }
+            },
+            "population-cible": "",
+            "champ-couvert": "",
+            "service-responsable-indicateur": {
+                "direction-metier": [
+                    "",
+                    ""
+                ]
+            },
+            "mode-calcul": "",
+            "periode-retenue-pour-le-score": {
+                "cpg": "",
+                "interessement": ""
+            },
+            "type-de-mesure-et-format-afffichage": "",
+            "si-autre": "",
+            "periodicite": "",
+            "mode-diffusion-resultats-au-reseau": [
+                "",
+                ""
+            ],
+            "date-transmission-resultats-DGCAP": {
+                "pour-suivi": "",
+                "pour-score": ""
+            },
+            "sources-donnees": "",
+            "methodes-statistiques": "",
+            "objectif": {
+                "nombre": "",
+                "unites": ""
+            },
+            "socle": {
+                "nombre": "",
+                "unites": ""
+            },
+            "instructions-nationales": "",
+            "commentaires": "",
+            "date-creation-fiche": "",
+            "date-derniere-mise-a-jour": "",
+            "detail-derniere-maj": ""
+        }
+    ]
+}

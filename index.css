@@ -15,3 +15,20 @@
 #footer {
     height: 5%;
 }
+
+#schemaDetailsModal .modal-body{
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+#formContainer {
+    overflow-y: auto;
+    height:50vh;
+    margin-bottom: 20px;
+
+}
+
+#downloadSchema{
+    display: none;
+}
+

@@ -1,33 +1,8 @@
 <section>
-    <div class="d-flex justify-content-end">
-        <button type="button" class="btn btn-outline-primary p-2 mt-3" data-bs-toggle="modal"
-            data-bs-target="#nouveauSchemaModal">
-            Nouveau schéma
-        </button>
-
-        <!-- Modal -->
-        <div class="modal fade" id="nouveauSchemaModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Liste</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <textarea class="form-control" id="modelSchema" rows="3"></textarea>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="d-flex justify-content-between align-items-center mb-4">
-        <h1>Form Schemas</h1>
+    <div class="d-flex justify-content-between align-items-center mb-4 mt-4">
+        <h1>Schémas disponibles</h1>
         <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addSchemaModal">
-            <i class="bi bi-plus"></i> Add Schema
+            <i class="bi bi-plus"></i> Ajouter schéma
         </button>
     </div>
 
@@ -42,13 +17,18 @@
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
-                        <label for="schemaJson" class="form-label">Schema JSON</label>
+                        <label for="schemaJson" class="form-label">Schéma JSON</label>
                         <textarea id="schemaJson" class="form-control" rows="10"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="schemaJsonName" class="form-label">Nom</label>
+                        <input id="schemaJsonName" class="form-control" />
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary" id="saveSchema">Save Schema</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-primary" id="saveSchema">Enregistrer</button>
+                    
                 </div>
             </div>
         </div>
@@ -56,10 +36,10 @@
 
     <div class="modal fade" id="schemaDetailsModal" tabindex="-1" aria-labelledby="schemaDetailsModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="schemaDetailsModalLabel">Schema Details</h5>
+                    <h5 class="modal-title" id="schemaDetailsModalLabel">Schéma Détails : <span id="nameSchemaDetails"></span></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -74,5 +54,6 @@
         </div>
     </div>
 
-    <div id="formContainer"></div>
+    <pre id="formContainer"></pre>
+    
 </section>
